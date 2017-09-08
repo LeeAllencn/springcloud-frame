@@ -11,6 +11,7 @@
     <modules>
         <module>springcloud-frame-eureka-ha</module>
         <module>springcloud-frame-provider</module>
+        <module>springcloud-frame-consumer</module>
     </modules>
 
 </project>
