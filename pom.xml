@@ -12,6 +12,7 @@
         <module>springcloud-frame-eureka-ha</module>
         <module>springcloud-frame-provider</module>
         <module>springcloud-frame-consumer</module>
+        <module>springcloud-frame-config-server</module>
     </modules>
 
 </project>
