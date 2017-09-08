@@ -13,6 +13,7 @@
         <module>springcloud-frame-provider</module>
         <module>springcloud-frame-consumer</module>
         <module>springcloud-frame-config-server</module>
+        <module>springcloud-frame-config-client</module>
     </modules>
 
 </project>
