@@ -3,12 +3,19 @@ spring:
     config:
       name: lee-config
       profile: dev
-      #uri: http://localhost:8001/
+#      uri: http://localhost:8001/
       label: master
       discovery:
         enabled: true
         service-id: microservice-config-server
+    bus:
+      enabled: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/,http://peer3:8763/eureka/
+      defaultZone: http://localhost:8000/eureka/   ## 注册中心eurka地址

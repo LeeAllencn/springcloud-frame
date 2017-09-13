@@ -3,3 +3,6 @@ spring:
     name: microservice-config-client
 server:
   port: 8002
+management:
+  security:
+    enabled: false
