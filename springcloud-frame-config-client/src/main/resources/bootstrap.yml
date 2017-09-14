@@ -11,8 +11,10 @@ spring:
     bus:
       enabled: true
   rabbitmq:
-    host: localhost
-    port: 5672
+#    host: localhost
+#    port: 5672
+    host: lix3-rabbitmqservice.caas.haihangyun.cn
+    port: 30988
     username: guest
     password: guest
 eureka:
