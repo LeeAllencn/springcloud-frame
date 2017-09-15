@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: microservice-zuul
+server:
+  port: 8888
+zuul:
+  routes:
+    provider-route:
+      url: http://localhost:9003/
+      path: /provider/**
+    consumer-route:
+      url: http://localhost:9001/
+      path: /consumer/**
