@@ -10,14 +10,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-//    @RequestMapping("/hello")
-//    public String hello(@RequestParam String name) {
-//        return "hello "+name+"，this is first messge";
-//    }
-
-    //负载均衡测试
     @RequestMapping("/hello")
     public String hello(@RequestParam String name) {
-        return "hello "+name+"，this is producer 2  send first messge";
+        return "hello "+name+"，this is first messge";
     }
+
+    //负载均衡测试
+//    @RequestMapping("/hello")
+//    public String hello(@RequestParam String name) {
+//        return "hello "+name+"，this is producer 2  send first messge";
+//    }
 }
