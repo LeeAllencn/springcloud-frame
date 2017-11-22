@@ -13,8 +13,8 @@ spring:
   rabbitmq:
 #    host: localhost
 #    port: 5672
-    host: lix3-rabbitmqservice.caas.haihangyun.cn
-    port: 30988
+    host:
+    port:
     username: guest
     password: guest
 eureka:
